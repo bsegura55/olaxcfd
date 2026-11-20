@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#48204f">
+  <meta name="description" content="MAVS JEWELRY: joyería artesanal en plata, piedras semipreciosas, mostacilla Miyuki y alambrismo.">
+  <title>Catálogo | MAVS JEWELRY</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/mavs-site.css">
+  
+</head>
+<body data-page="catalogo">
+  <div id="site-header"></div>
+  <main id="contenido">
+<section class="page-masthead shell masthead-catalog">
+  <div class="masthead-copy"><span class="eyebrow">PIEZAS CON IDENTIDAD</span><h1>Catálogo</h1><p>Descubre nuestras piezas hechas a mano y encuentra la que conecta contigo.</p><div class="masthead-links"><a class="text-link" href="#catalogo">Explorar piezas <i class="fa-solid fa-arrow-down"></i></a><span>♡</span></div></div>
+  <div class="masthead-image"><img src="images/mavs/clientes/aros-flor-lila.jpg" alt="Aros florales lila hechos a mano"><span class="image-note">Creaciones únicas</span></div>
+</section>
+<section class="catalog-section shell section-pad" id="catalogo">
+  <div class="section-heading align-left"><span class="eyebrow">COLECCIONES MAVS</span><h2>Encuentra tu próxima pieza</h2><p>Explora por técnica o revisa todas las creaciones.</p></div>
+  <div class="catalog-layout">
+    <aside class="filter-panel"><div class="filter-panel-head"><span class="eyebrow">PERSONALIZA TU BÚSQUEDA</span><h3>Colecciones</h3></div>
+      <button class="filter-button active" data-filter="all">Todas las piezas <span>11</span></button>
+      <button class="filter-button" data-filter="plata">Plata y piedras</button>
+      <button class="filter-button" data-filter="miyuki">Mostacilla Miyuki</button>
+      <button class="filter-button" data-filter="alambrismo">Alambrismo</button>
+      <div class="filter-divider"></div><h3>Tipo de pieza</h3>
+      <label class="check-filter"><input type="checkbox" data-type="aros"> Aros</label>
+      <label class="check-filter"><input type="checkbox" data-type="collares"> Collares</label>
+      <label class="check-filter"><input type="checkbox" data-type="pulseras"> Pulseras</label>
+      <button class="clear-filters" data-clear-filters>Limpiar filtros</button>
+    </aside>
+    <div class="catalog-results"><div class="catalog-results-head"><p><strong data-result-count>11 piezas</strong> para descubrir</p><button class="favorite-filter" data-favorites-only><i class="fa-regular fa-heart"></i> Ver favoritos</button></div><div class="product-grid catalog-products" id="favoritos" data-product-grid data-collection="all"></div><p class="empty-state" data-empty-state hidden>No hay piezas que coincidan con tu búsqueda.</p></div>
+  </div>
+</section>
+</main>
+  <div id="site-footer"></div>
+  <a class="whatsapp-float" href="https://wa.me/56989234239" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <script src="js/mavs-data.js"></script>
+  <script src="js/mavs-site.js"></script>
+</body>
+</html>
